@@ -1,6 +1,13 @@
 module.exports = {
   coverageDirectory: './coverage',
-  collectCoverageFrom: ['packages/*/src/**/*.{js,jsx}'],
+  coveragePathIgnorePatterns: [
+    '/node_modules/',
+    '/public/',
+    '/esm/',
+    '/build/',
+    '/lib/',
+    '/tmp/',
+  ],
   coverageReporters: ['lcov'],
   globals: {
     __DEV__: true,
