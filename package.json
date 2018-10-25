@@ -1,0 +1,20 @@
+{
+  "name": "jest-coverage-issue",
+  "version": "0.0.0",
+  "description": "",
+  "main": "index.js",
+  "scripts": {
+    "test": "jest --coverage --debug --no-cache"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/williaster/jest-coverage-issue.git"
+  },
+  "dependencies": {
+    "babel-jest": "^23.6.0",
+    "jest": "^23.4.1"
+  },
+  "devDependencies": {
+    "yarn": "^1.9.4"
+  }
+}
