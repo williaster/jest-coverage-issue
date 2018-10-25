@@ -13,7 +13,6 @@ module.exports = {
     __DEV__: true,
   },
   moduleFileExtensions: ['js', 'jsx', 'json'],
-  roots: ['<rootDir>/packages'],
   setupFiles: [],
   testMatch: ['**/?(*.)+(spec|test).{js,jsx}'],
   testURL: 'http://localhost/',
