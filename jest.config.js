@@ -2,11 +2,12 @@ module.exports = {
   coverageDirectory: './coverage',
   coveragePathIgnorePatterns: [
     '/node_modules/',
-    '/public/',
-    '/esm/',
-    '/build/',
-    '/lib/',
-    '/tmp/',
+    '<rootDir>/packages/*/node_modules/',
+    '<rootDir>/packages/*/public/',
+    '<rootDir>/packages/*/esm/',
+    '<rootDir>/packages/*/build/',
+    '<rootDir>/packages/*/lib/',
+    '<rootDir>/packages/*/tmp/',
   ],
   coverageReporters: ['lcov'],
   globals: {
