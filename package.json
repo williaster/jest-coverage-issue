@@ -12,7 +12,7 @@
   },
   "dependencies": {
     "babel-jest": "^23.6.0",
-    "jest": "^23.4.1"
+    "jest": "^23.6.0"
   },
   "devDependencies": {
     "yarn": "^1.9.4"
